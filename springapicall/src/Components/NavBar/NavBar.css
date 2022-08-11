@@ -1,0 +1,120 @@
+.navbar_component {
+    width: 100vw;
+    height: 90px;
+    background-color: #130f40;
+    background-image: linear-gradient(315deg, #130f40 0%, #000000 74%);
+    display: flex;
+}
+
+
+.navbar_logo{
+    margin-left: 10px;
+    margin-top: 10px;
+    background: url("https://ik.imagekit.io/amazon12349/amazon-image/mobs-removebg-preview__2__6Vu0hcNte.png?ik-sdk-version=javascript-1.4.3&updatedAt=1655031280069")no-repeat -9px -14px;
+    width: 113px;
+    height: 65px;
+}
+.navbar_searchbox
+{
+    margin-left: 10px;
+    width: 640px;
+    height: 38px;
+    margin-top: 8px;
+}
+.navbar_searchcomponent
+{
+    display: flex;
+}
+.navbar_searchicon
+{
+    margin-top: 5px;
+    background: url("https://ik.imagekit.io/amazon12349/amazon-image/Untitled-removebg-preview-removebg-preview_cqTDwOXpq.png?ik-sdk-version=javascript-1.4.3&updatedAt=1653918571333")no-repeat -23px -36px;
+	width: 83px;
+	height: 50px;
+}
+.navbar_logos{
+    margin-left: 350px;
+    margin-top: 10px;
+    background: url("https://ik.imagekit.io/amazon12349/amazon-image/sprite_GDxUulMid9.png?ik-sdk-version=javascript-1.4.3&updatedAt=1653911158444")  no-repeat -436px -674px;
+	width: 82px;
+	height: 56px;
+}
+.navbar_fj{
+    margin-right: 30px;
+    margin-top: 10px;
+}
+.cart_item
+{
+    font-weight: bold;
+    position: relative;
+    left: 200px;
+    top: 5px;
+    color: #fffffe;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+  }
+.button2:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 9px;
+    height: 50px;
+    margin-top: 10PX;
+    margin-left: 10PX;
+    margin-left: relative;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+  }
